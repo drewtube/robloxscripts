@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({IntroText = "Hi! Nice to meet you!",Name = "Hi!", HidePremium = false, SaveConfig = true, ConfigFolder = "Drewtube-MakeWindowService"})
  OrionLib:MakeNotification({
-       Name = "Error",
+       Name = "It works!",
        Content = "Hi!",
        Time = 2
     })
