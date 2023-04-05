@@ -1,0 +1,24 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({IntroText = "Drew's Script Hub",Name = "Drew's Script Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "Dscripthub"})
+ OrionLib:MakeNotification({
+       Name = "Hello!",
+       Content = "Welcome to Drew's Script Hub!",
+       Time = 2
+    })
+local Tab = Window:MakeTab({
+	Name = "Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Arsenal",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/BoltsHubV5",true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		
+  	end    
+})
